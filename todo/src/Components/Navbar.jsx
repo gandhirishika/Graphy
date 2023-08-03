@@ -32,27 +32,27 @@ const Navbar = () => {
           <div className="flex items-center">
             <span className="hidden md:flex m-2">
               <img
-                className="m-3 h-6"
+                className="h-6 w-auto m-3 object-contain"
                 src="https://img.icons8.com/?size=512&id=13800&format=png"
                 alt="loading"
               />
-              <h2 className="m-3">New York, NY</h2>
+              <h2 className="m-3 mr-40 text-white">New York, NY</h2>
             </span>
           </div>
           <div className="flex items-center">
             <span className="hidden md:flex m-2">
               <img
-                className="m-2 h-7 border border-slate-500 rounded-full"
+                className="h-7 w-auto m-2 border border-slate-500 rounded-full object-cover"
                 src="https://img.icons8.com/?size=1x&id=21838&format=png"
                 alt="human"
               />
               <img
-                className="m-2 h-7 border border-slate-500 rounded-full"
+                className="h-7 w-auto m-2 border border-slate-500 rounded-full object-cover"
                 src="https://img.icons8.com/?size=512&id=21103&format=png"
                 alt="settings"
               />
               <img
-                className="m-2 h-7 border border-slate-500 rounded-full"
+                className="h-7 w-auto m-2 border border-slate-500 rounded-full object-cover"
                 src="https://img.icons8.com/?size=512&id=F5WMYjiT3vpJ&format=png"
                 alt="notification"
               />
@@ -79,45 +79,66 @@ const Navbar = () => {
           <li className="p-2 border-r-2 flex border-gray-400">
             <span>
               <img
-                className="h-6 m-1 rounded-full"
+                className="h-6 w-auto m-1 rounded-full object-cover"
                 src="https://img.icons8.com/?size=1x&id=12773&format=png"
                 alt="loading"
               />
             </span>
             Designer
+            <img
+              className="h-6 w-auto  p-1 ml-5 rounded-full"
+              src="https://img.icons8.com/?size=512&id=47090&format=png"
+              alt="dropdow"
+            />
           </li>
-          <li className="p-2 border-r-2 flex place-items-center border-gray-400 ">
+          <li className="p-2 border-r-2 flex justify-center border-gray-400 place-items-center ">
             <span>
               <img
-                className="h-6 m-1 rounded-full"
+                className="h-6 w-auto m-1 rounded-full object-contain"
                 src="https://img.icons8.com/?size=512&id=13800&format=png"
                 alt="loading"
               />
             </span>
             Work Location
+            <img
+              className="h-6 w-auto  p-1 ml-5 rounded-full"
+              src="https://img.icons8.com/?size=512&id=47090&format=png"
+              alt="dropdow"
+            />
           </li>
-          <li className="p-2 border-r-2 flex border-gray-400">
+          <li className="p-2 border-r-2 flex justify-center border-gray-400 place-items-center ">
             <span>
               <img
-                className="h-6 m-1 rounded-full"
+                className="h-6 w-auto m-1 rounded-full object-contain"
                 src="https://img.icons8.com/?size=1x&id=6nixsGOOQFe7&format=png"
                 alt="loading"
               />
             </span>
             Experience
+            <img
+              className="h-6 w-auto  p-1 ml-5 rounded-full"
+              src="https://img.icons8.com/?size=512&id=47090&format=png"
+              alt="dropdow"
+            />
           </li>
-          <li className="p-2 border-r-2 flex border-gray-400 ">
+          <li className="p-2 border-r-2 flex border-gray-400  justify-center place-items-center">
             <span>
               <img
-                className="h-6 m-1 rounded-full"
+                className="h-6 w-auto m-1 rounded-full object-contain"
                 src="https://img.icons8.com/?size=1x&id=54390&format=png"
                 alt="loading"
               />
             </span>
             Per month
+            <img
+              className="h-6 w-auto  p-1 ml-5 rounded-full"
+              src="https://img.icons8.com/?size=512&id=47090&format=png"
+              alt="dropdow"
+            />
           </li>
-          <li className="p-2 flex border-gray-400 justify-between">
-            <span> Salary Range</span>
+          <li className="p-2 flex  border-gray-400 justify-evenly m-2">
+            <span className="mr-8"> Salary Range</span>
+            <span className="mr-4"> $1200-$20000</span>
           </li>
         </ul>
       </div>
@@ -126,6 +147,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-  
-  

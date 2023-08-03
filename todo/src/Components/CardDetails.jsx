@@ -37,20 +37,22 @@ const CardDetails = () => {
             </div>
             <div className="flex ">
               <ul className=" grid justify-items-end m-1">
-                <li className="text-red-500 font-medium">Report this Job</li>
+                <li className="text-red-500 font-medium flex p-2">
+                  <img className="h-4 m-2" src="https://img.icons8.com/?size=512&id=GpUcREcqMB2D&format=png" alt="laoding"/>
+                  Report this Job</li>
                 <li className="font-medium">
                   <span className="text-gray-500 ">Posted 8 days ago</span>
                   <span className="text-blue-400 m-2">25 Applicants</span>{" "}
                 </li>
                 <li className="flex justify-evenly m-1 font-medium">
-                  <button className=" text-black rounded-2xl  h-8 w-20  mt-1 border border-gray-400 flex items-center justify-center">
+                  <button className=" text-black rounded-2xl  h-8 w-14  mt-1 border border-gray-400 flex items-center justify-center">
                     ...
                   </button>
                   <button className="bg-gray-300 text-black rounded-full text-center h-8 w-20 text-l p-2 m-1 flex items-center justify-center">
                     Save
                   </button>
-                  <button className="bg-blue-500 text-white rounded-full text-center h-8 w-20 text-l  m-1 p-2 flex items-center justify-center">
-                    Apply
+                  <button className="bg-blue-500 text-white rounded-full text-center h-8 w-24 text-l  m-1 p-3 flex items-center justify-center">
+                   <img src="https://img.icons8.com/?size=1x&id=ZEDHDUP0K6P0&format=png" alt="loading"/> Apply
                   </button>
                 </li>
               </ul>
@@ -98,8 +100,8 @@ const CardDetails = () => {
               </li>
             </ul>
           </div>
-          <div className="bg-white p-2 m-2 h-80 grid grid-cols-2 gap-0 rounded-xl md:w-[30%]">
-            <ul className="bg-slate-100 rounded-xl h-16 w-36 p-2">
+          <div className="bg-white p-2 m-2 h-80 grid grid-cols-2 gap-0 rounded-xl md:w-[30%] place-items-center">
+            <ul className="bg-slate-100 rounded-xl h-16 w-36 p-2 ">
               <li className="font-light text-center">Work Level</li>
               <li className="font-bold text-center">Senior</li>
             </ul>

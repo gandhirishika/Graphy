@@ -40,7 +40,7 @@ const Card = ({
 
   return (
 
-      <div className="card w-[300px] p-2 m-1 border-2 border-black-800 shadow-xl rounded-lg h-80">
+      <div className="card w-[300px] p-2 m-1 border-2 border-gray-300 shadow-xl rounded-lg h-80">
         <div className="rounded-lg mt-1 h-3/4" style={{ backgroundColor: color }}>
           <div className="flex justify-between">
             <span className="bg-white rounded-full p-1 m-2 font-bold text-sm">
